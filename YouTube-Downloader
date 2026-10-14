@@ -1,0 +1,1 @@
+import yt_dlp,sys;yt_dlp.YoutubeDL({'format':'best'}).download([sys.argv[1]])
